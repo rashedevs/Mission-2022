@@ -1,0 +1,42 @@
+.font{
+    font-family: 'Rozha One', serif;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 400;
+}
+.half-width{
+    width: 50%;
+    margin: 15px 20px 30px 120px;
+}
+.half-width img{
+    width:70%;
+}
+.one{
+    display: flex;
+}
+.two{display: flex;  
+    margin: 20px 20px 40px 200px;
+}
+.two img{width: 55%;}
+.three{display: flex;}
+.four{display: flex;}
+.five{display: flex;}
+
+h1{font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;   
+}
+p{
+    font-weight: 400;
+}
+
+
+
+footer{
+    text-align: center;
+}
