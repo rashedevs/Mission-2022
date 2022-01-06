@@ -39,15 +39,17 @@ overflow-X: hidden;}
     margin-top: 0px 5px 20px 0px;
 }
 .new{margin-top: 120px;}
-.two{width: 100%;
-    height: 100%;
-    display: flex;  
-    margin: 20px;
-    
+.two{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin: 20px 0px 40px 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 .two img{
     width: 30%;
-    height: 100%;
+    height: 20%;
 }
 
     #illus-one{
@@ -56,9 +58,9 @@ overflow-X: hidden;}
         background-color: rgb(235, 231, 231);
         margin-left: 110px;
         margin-right: 10px;
-        padding:0px 20px 30px;
+        padding:0px 20px 40px;
         border: 0px solid;
-        border-radius: 15px;
+        border-radius: 20px;
     }
     #illus-two{
         width: 27%;
@@ -66,9 +68,9 @@ overflow-X: hidden;}
         background-color: lavenderblush;
         margin-left: 10px;
         margin-right: 10px;
-        padding:0px 20px 30px;
+        padding:0px 20px 40px;
         border: 0px solid;
-        border-radius: 15px;
+        border-radius: 20px;
     }
     #illus-three{
         width: 27%;
@@ -76,9 +78,9 @@ overflow-X: hidden;}
         background-color: lightgoldenrodyellow;
         margin-left: 10px;
         margin-right: 110px;
-        padding:0px 20px 30px;
+        padding:0px 20px 40px;
         border: 0px solid;
-        border-radius: 15px;
+        border-radius: 20px;
     }
   
     #foot-color{color: tomato;}
@@ -139,7 +141,7 @@ overflow-X: hidden;}
 
 .five{
     display: flex;
-    margin: 50px 20px 0px 7px;
+    margin: 50px 30px 0px 7px;
 }
 
 h1{font-size: 40px;
