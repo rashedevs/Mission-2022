@@ -97,6 +97,18 @@ padding: 0;}
     padding-right: 25px;
     padding-left:0px;
 }
+.back1{
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+}
+.back2{
+    background-image: url(./images/shapes/shape-8.png);
+    background-repeat: no-repeat;
+}
+.back3{
+    background-image: url(./images/shapes/shape-4.png);
+    background-repeat: no-repeat;
+}
 
 .four{
     display: flex;
