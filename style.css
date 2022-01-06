@@ -1,42 +1,151 @@
+body{margin: 0;
+padding: 0;}
 .font{
     font-family: 'Rozha One', serif;
     font-size: 70px;
     text-align: center;
     font-weight: 400;
+    text-align: left;
 }
+.font1{
+    font-size: 35px;
+    font-weight: 800;
+    font-family: 'Playball', cursive;}
 .half-width{
     width: 50%;
     margin: 15px 20px 30px 120px;
 }
 .half-width img{
-    width:70%;
+    width:80%;
+    height: 100%;
 }
+.button{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;                                       
+    background-image: linear-gradient(tomato,tomato);      
+    padding: 10px 20px ;
+    border-radius: 5px;
+}
+.color{color: rgb(255, 166, 0);}
 .one{
     display: flex;
+    width:100%;
+    margin:10px;
 }
-.two{display: flex;  
-    margin: 20px 20px 40px 200px;
+.two{width: 100%;
+    height: 100%;
+    display: flex;  
+    margin: 20px;
+    
 }
-.two img{width: 55%;}
-.three{display: flex;}
-.four{display: flex;}
-.five{display: flex;}
+.two img{
+    width: 30%;
+    height: 100%;
+}
+
+    #illus-one{
+        width: 27%;
+        height: 100%;
+        background-color: rgb(235, 231, 231);
+        margin-left: 110px;
+        margin-right: 10px;
+        padding:0px 20px 30px;
+        border: 0px solid;
+        border-radius: 15px;
+    }
+    #illus-two{
+        width: 27%;
+        height: 100%;
+        background-color: lavenderblush;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding:0px 20px 30px;
+        border: 0px solid;
+        border-radius: 15px;
+    }
+    #illus-three{
+        width: 27%;
+        height: 100%;
+        background-color: lightgoldenrodyellow;
+        margin-left: 10px;
+        margin-right: 110px;
+        padding:0px 20px 30px;
+        border: 0px solid;
+        border-radius: 15px;
+    }
+  
+    #foot-color{color: tomato;}
+    #corona{ border: 0px solid;
+        border-radius: 25px;}
+
+.disclaimer{text-align: center;}
+.head{text-align: left;}
+.three{
+    display: flex;
+    margin: 70px 60px 0px 0px;
+    padding-right:50px ;
+}
+.three img{
+    width: 82%;
+    height: 100%;
+    margin-left: 14px;
+}
+.right{width:60%;
+    margin-top: 50px;
+    margin-left: 0px;
+    padding-right: 25px;
+    padding-left:0px;
+}
+
+.four{
+    display: flex;
+    margin: 50px 20px 0px 0px;
+    
+    
+}
+.left{
+    width:60%;
+    margin-left: 93px;
+    padding-right: px;
+    padding-left:20px;
+}
+
+.five{
+    display: flex;
+    margin: 50px 20px 0px 0px;
+}
 
 h1{font-size: 40px;
-    text-align: center;
+    text-align: left;
     font-weight: 800;
 }
+.mid{text-align: center;}
+.boro{font-size:50px;}
 h2{
     font-size: 40px;
     text-align: center;
-    font-weight: 600;   
+    font-weight: 650;   
 }
-p{
+h3{
+    font-size:25px;
+    text-align: left;
+    font-weight: 700;
+}
+p{font-size: 20px;
     font-weight: 400;
+    text-align: justify;
 }
+.new{font-size: 18px;
+    font-weight: 400;
+    text-align: justify;}
 
 
 
-footer{
+footer{color: white;
     text-align: center;
+    background-color: black;
+    margin: 50px 0px 0px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
