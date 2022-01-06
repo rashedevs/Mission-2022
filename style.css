@@ -1,5 +1,6 @@
 body{margin: 0;
-padding: 0;}
+padding: 0;
+overflow-X: hidden;}
 .font{
     font-family: 'Rozha One', serif;
     font-size: 70px;
@@ -13,11 +14,11 @@ padding: 0;}
     font-family: 'Playball', cursive;}
 .half-width{
     width: 50%;
-    margin: 15px 20px 30px 120px;
+    margin: 10px 15px 30px 120px;
 }
 .half-width img{
     width:80%;
-    height: 100%;
+    height:100%;
 }
 .button{
     color: white;
@@ -33,6 +34,11 @@ padding: 0;}
     width:100%;
     margin:10px;
 }
+.one img{
+    margin-left: 10px;
+    margin-top: 0px 5px 20px 0px;
+}
+.new{margin-top: 120px;}
 .two{width: 100%;
     height: 100%;
     display: flex;  
@@ -76,7 +82,9 @@ padding: 0;}
     }
   
     #foot-color{color: tomato;}
-    #linkedin{ border: 0px solid;
+    #linkedin{
+        margin-left: 10px;
+        border: 0px solid;
         border-radius: 25px;}
 
 .disclaimer{text-align: center;}
@@ -100,32 +108,38 @@ padding: 0;}
 .back1{
     background-image: url(./images/shapes/shape-1.png);
     background-repeat: no-repeat;
+    background-position: right;
 }
 .back2{
     background-image: url(./images/shapes/shape-8.png);
     background-repeat: no-repeat;
 }
 .back3{
-    background-image: url(./images/shapes/shape-4.png);
+    background-image: url(./images/shapes/shape-1.png);
     background-repeat: no-repeat;
+    background-position: right;
 }
-
+.border{
+    padding-left: 12px;
+    line-height: 240%;
+    border-left: 4px solid tomato;
+    border-radius: 4px;
+    padding-top:5px 0px 5px 0px;
+}
 .four{
     display: flex;
     margin: 50px 20px 0px 0px;
-    
-    
 }
 .left{
     width:60%;
-    margin-left: 93px;
-    padding-right: px;
-    padding-left:20px;
+    margin-left: 105px;
+    padding-right: 0px;
+    padding-left:30px;
 }
 
 .five{
     display: flex;
-    margin: 50px 20px 0px 0px;
+    margin: 50px 20px 0px 7px;
 }
 
 h1{font-size: 40px;
@@ -157,7 +171,8 @@ p{font-size: 20px;
 footer{color: white;
     text-align: center;
     background-color: black;
-    margin: 50px 0px 0px 0px;
+    margin-top: 50px;
+    margin-right: 0;
     padding-top: 10px;
     padding-bottom: 10px;
 }
